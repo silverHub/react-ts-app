@@ -25,10 +25,10 @@ First time, install dependencies with:
 npm install
 ```
 
-Start development server with hot module reloading:
+Start development server with hot module reloading on [localhost:3000](localhost:3000):
 
 ```sh
-npm start  // [localhost:3000](localhost:3000)
+npm start 
 ```
 
 Create a production build:
