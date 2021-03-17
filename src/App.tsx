@@ -3,14 +3,16 @@ import logo from "./logo.svg";
 
 function App() {
   return (
-    <div className="bg-gray-800 text-gray-50 h-screen">
-      <header className="text-center space-y-6">
+    <div className="flex flex-col justify-center bg-gray-800 text-gray-50 h-screen">
+      <header className=" text-center space-y-6">
         <img
           src={logo}
           className="mx-auto h-[100px] w-[100px] animate-spin"
           alt="logo"
         />
-        <h1 className="text-4xl">Hello Vite + React + TailwindCSS!</h1>
+        <h1 className="text-2xl xl:text-4xl">
+          Hello Vite + React + TailwindCSS!
+        </h1>
         <p className="italic">
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
