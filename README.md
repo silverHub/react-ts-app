@@ -34,7 +34,7 @@ npm start  // [localhost:3000](localhost:3000)
 Create a production build:
 
 ```sh
-npm run build   // assets will be generated in ./build folder
+npm run build 
 ```
 
 Preview prod build
