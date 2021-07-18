@@ -3,8 +3,8 @@ import logo from "./logo.svg";
 
 function App() {
   return (
-    <div className="flex flex-col justify-center bg-gray-800 text-gray-50 h-screen">
-      <header className=" text-center space-y-6">
+    <div className="flex flex-col justify-center h-screen bg-gray-800 text-gray-50">
+      <header className="space-y-6 text-center ">
         <img
           src={logo}
           className="mx-auto h-[100px] w-[100px] animate-spin"
