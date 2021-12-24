@@ -4,12 +4,13 @@
 
 Opinionated project starter built on
 
+- Yarn (v1)
 - Vite bundler v2.1.0
 - React v17.0.1
 - TypeScript v4.2.3
 - TailwindCSS (JIT) v2.0.3
 
-**Tested with Win10.**
+**Tested with Win10/11.**
 
 ## Features 🎁
 
@@ -27,25 +28,25 @@ Opinionated project starter built on
 First time, install dependencies with:
 
 ```sh
-npm install
+yarn
 ```
 
 Start development server with hot module reloading on [localhost:3000](localhost:3000):
 
 ```sh
-npm start
+yarn start
 ```
 
 Create a production build:
 
 ```sh
-npm run build
+yarn build
 ```
 
 Preview prod build
 
 ```sh
-npm run serve
+yarn serve
 ```
 
 ## Credits
