@@ -13,12 +13,12 @@ jobs:
 
       - name: Install and Build
         run: |
-          npm ci
-          npm run build
+          yarn install --frozen-lockfile
+          yarn build
 
       - name: Test
         run: |
-          npm test
+          yarn test
 
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@4.1.0
