@@ -16,6 +16,7 @@
     "start": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
+    "test": "echo add test runner",
     "prepare": "husky install"
   },
   "dependencies": {
